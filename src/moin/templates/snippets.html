@@ -100,6 +100,7 @@ See https://moin-20.readthedocs.org/en/latest/admin/configure.html#using-a-custo
 {# Additional Stylesheets (after theme css, before user css #}
 {% macro stylesheets() -%}
     {# <link media="all" rel="stylesheet" href="{{ url_for('serve.files', name='wiki_local', filename='MyStyleSheet.css') }}"> #}
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 {%- endmacro %}
 
 {# Additional Javascript #}
